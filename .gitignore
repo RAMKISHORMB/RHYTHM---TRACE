@@ -25,3 +25,31 @@ models/trained/
 # System
 .DS_Store
 Thumbs.db
+
+# Local Python environment
+backend/.venv/
+
+# ECG datasets and local database
+backend/data/mitdb/
+backend/data/raw/
+backend/data/processed/
+backend/data/trace_event_audit.db
+backend/data/*.db
+backend/data/*.sqlite3
+
+# Local configuration
+.mcp.json
+
+# Generated model files
+backend/models/*.pkl
+backend/models/*.joblib
+backend/models/*.h5
+backend/models/*.pt
+backend/models/*.pth
+
+# Temporary zero-byte files
+backend/0.0
+backend/dict
+backend/float
+backend/np.ndarray
+backend/str

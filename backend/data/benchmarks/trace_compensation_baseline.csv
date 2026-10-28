@@ -1,0 +1,7 @@
+scenario,strength,seed,raw_error_rms,filtered_error_rms,improvement_percent,clean_filter_distortion_rms,residual_artifact_rms,reference_event_count,raw_event_count,filtered_event_count,raw_agreement_f1,filtered_agreement_f1,raw_missed_events,filtered_missed_events,raw_extra_events,filtered_extra_events,filter_type,motion_adaptive,clinical_validated
+SUSTAINED_WALKING,1.0,42,0.143742,960.582485,-668168.018,960.582475,0.128651,3,3,3,1.0,1.0,0,0,0,0,offline_butterworth_bandpass,False,False
+SUSTAINED_WALKING,2.0,42,0.287484,960.582513,-334034.018,960.582475,0.257302,3,3,3,1.0,1.0,0,0,0,0,offline_butterworth_bandpass,False,False
+SUSTAINED_WALKING,4.0,42,0.574968,960.582619,-166967.028,960.582475,0.514604,3,3,3,1.0,1.0,0,0,0,0,offline_butterworth_bandpass,False,False
+REPEATED_ELECTRODE_POPS,1.0,42,0.167305,960.582467,-574049.23,960.582475,0.154902,3,3,3,1.0,1.0,0,0,0,0,offline_butterworth_bandpass,False,False
+REPEATED_ELECTRODE_POPS,2.0,42,0.334611,960.582484,-286974.62,960.582475,0.309804,3,3,3,1.0,1.0,0,0,0,0,offline_butterworth_bandpass,False,False
+REPEATED_ELECTRODE_POPS,4.0,42,0.669221,960.582593,-143437.326,960.582475,0.619607,3,3,3,1.0,1.0,0,0,0,0,offline_butterworth_bandpass,False,False

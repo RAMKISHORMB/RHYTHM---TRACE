@@ -1,0 +1,7 @@
+scenario,strength,seed,raw_artifact_rms,residual_artifact_rms,artifact_reduction_percent,clean_distortion_rms,relative_clean_distortion_percent,reference_event_count,raw_event_count,filtered_event_count,raw_agreement_f1,filtered_agreement_f1,raw_missed_events,filtered_missed_events,raw_extra_events,filtered_extra_events,evaluation_type,filter_type,clinical_validated
+SUSTAINED_WALKING,1.0,42,0.143742,0.128651,10.499,11.490901,32.46,3,3,3,1.0,1.0,0,0,0,0,filtered_reference_artifact_comparison,offline_nonadaptive_bandpass,False
+SUSTAINED_WALKING,2.0,42,0.287484,0.257302,10.499,11.490901,32.46,3,3,3,1.0,1.0,0,0,0,0,filtered_reference_artifact_comparison,offline_nonadaptive_bandpass,False
+SUSTAINED_WALKING,4.0,42,0.574968,0.514604,10.499,11.490901,32.46,3,3,3,1.0,1.0,0,0,0,0,filtered_reference_artifact_comparison,offline_nonadaptive_bandpass,False
+REPEATED_ELECTRODE_POPS,1.0,42,0.167305,0.154902,7.414,11.490901,32.46,3,3,3,1.0,1.0,0,0,0,0,filtered_reference_artifact_comparison,offline_nonadaptive_bandpass,False
+REPEATED_ELECTRODE_POPS,2.0,42,0.334611,0.309804,7.414,11.490901,32.46,3,3,3,1.0,1.0,0,0,0,0,filtered_reference_artifact_comparison,offline_nonadaptive_bandpass,False
+REPEATED_ELECTRODE_POPS,4.0,42,0.669221,0.619607,7.414,11.490901,32.46,3,3,3,1.0,1.0,0,0,0,0,filtered_reference_artifact_comparison,offline_nonadaptive_bandpass,False
